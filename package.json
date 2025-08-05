@@ -14,5 +14,8 @@
     "mysql"
   ],
   "author": "Melissa Klehm",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
