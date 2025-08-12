@@ -3,6 +3,7 @@
 - npm init = cria o package json para iniciar o projeto node
 - npm install = instala todos os pacotes do package json 
 - npm i nome_pacote = instala um pacote especifico
+- npm run nome_do_script // executa um script do package json (apenas o start pode ignorar o comando run)
 
 o que siginica npm? 
 node package manager (encontarr e gerenciar pacotes)
@@ -14,7 +15,7 @@ node package manager (encontarr e gerenciar pacotes)
 
 
 - git init = inicia o git em uma pasta 
-- git remote add origin _url_do_github //  vinvula um proojeto local em um repositório do github
+- git remote add origin _url_do_github //  vinvula um proojeto local em 'um' repositório do github
 
 
 //
@@ -41,7 +42,7 @@ em que ambiente está sendo criado o projeto? node
 
 # tópicos importantes 
 
-- O que é framework = conjunto de ferramentas para resolver um problema ou criar uma solução
+- O que é framework = conjunto de ferramentas para resolver 22 problema ou criar '''''''''''''''''''''''''''''''''  '''''''''''''''''''''''''''''''''a solução
 
 - javascript = linguagem de programação 
 
@@ -60,3 +61,18 @@ em que ambiente está sendo criado o projeto? node
 
 # como muda o formato de importação/exportação de required para import
 - adicionar no package.json a propriedade "type": "module"
+
+
+# watch
+- o watch nao resolve erro no servidor 
+- watch (parametro para rodar um js em modo dev, que permitir rodar novamente  quando algum arquivo é alterado)
+
+# sintaxe básica de uma rota da API 
+
+app.post('/produto, (req, res) => {
+    res.json({message: 'Criado com sucesso!'})
+})
+
+- método criar ou inserir: post
+- rota ou endereço: /produto
+- tipo de resposta: json 
