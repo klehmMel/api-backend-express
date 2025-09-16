@@ -42,7 +42,7 @@ em que ambiente está sendo criado o projeto? node
 
 # tópicos importantes 
 
-- O que é framework = conjunto de ferramentas para resolver 22 problema ou criar '''''''''''''''''''''''''''''''''  '''''''''''''''''''''''''''''''''a solução
+- O que é framework = conjunto de ferramentas para resolver problemas ou criaa solução
 
 - javascript = linguagem de programação 
 
@@ -76,3 +76,13 @@ app.post('/produto, (req, res) => {
 - método criar ou inserir: post
 - rota ou endereço: /produto
 - tipo de resposta: json 
+
+
+# padrão de projeto 
+
+- forma de organizar o projeto de forma conhecida pelos desenvolvedores (middleware, mvc)
+
+
+- oque é npm
+- oque é node.js
+                      
